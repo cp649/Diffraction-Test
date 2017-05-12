@@ -25,7 +25,8 @@ end
 W = zeros(size(Z));
 load('AtomicWeights');
 
-for j=1:size(Z,2)
-    W(1,j) = AW(Z(1,j),2);
+for i=1:size(Z,2)
+    W(1,i) = AW(Z(1,i),2);
 end
+
 end
